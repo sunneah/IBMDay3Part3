@@ -8,12 +8,12 @@ void main()
   printf("Enter a string:");
   gets(str);
   l=strlen(str);
-  k=l;
+  k=l-1;
   for(i=0;i<=l/2;i++)
   {
     if(str[i]!=str[k])
-    {f=1;
-     break();
+    { f=1;
+     break;
     }
     k--;
   }
